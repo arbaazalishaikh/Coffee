@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(73, 214, 214);
+    color: black;
+}
+
+nav{
+    background: azure;
+    width: 100%;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+nav ul{
+    width: 100%;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: red;
+    text-decoration: none;
+}
+.logo{
+    width: 100px;
+    /* height: 50px; */
+}
+
+.user{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 320px;
+}
+
+.sub-menu{
+    background: white ;
+    padding: 20px;
+    margin: 10px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-info h2{
+    font-weight: 500;
+}
+
+.user-info img{
+    width: 60px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+    margin: 15px 0 10px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: mediumturquoise;
+    margin: 12px 0;
+}
+
+.link p{
+    width: 80%;
+}
